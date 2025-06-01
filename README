@@ -1,0 +1,16 @@
+Durata implementare: 50 ore
+Acest cod prezinta implementarea jocului 2048. Am creat un meniu prinicipal
+format din optiunile NEW GAME, RESUME si QUIT. Daca accesam optiunea NEW GAME
+se va afisa tabla de joc formata din 16 celule, 4 randuri si 4 coloane. Pe 
+tabla de joc vor fi initial generate doua celule cu valorile 2 sau 4. In 
+dreapta isi face prezenta panoul de control unde sunt prezentate urmatoarele:
+data si ora curente, scorul curent si comenzile. Mutarile pe tabla de joc se 
+realizeaza cu ajutorul tastelor cu sageti, iar dupa castigul sau pierderea unui
+joc prin apasarea tastei "R" jocul se restarteaza si poate fi luat de la capat.
+Prin apasarea tastei "Q" se iese din optiunea NEW GAME in meniul principal. 
+Pentru realizarea jocului am implementat mai multe functii: functii pentru 
+verificarea disponibilitatii unei mutari, functii pentru mutarea celulelor, 
+functie verificare daca a fost castigat jocul, functie verificare daca a fost
+pierdut jocul, functie desenare joc, functie desenare tabla, functie
+initializare culori, functie initializare joc, functie pentru meniu, functie
+adaugare celula aleatorie. 
