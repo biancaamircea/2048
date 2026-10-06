@@ -1,16 +1,17 @@
-Durata implementare: 50 ore
-Acest cod prezinta implementarea jocului 2048. Am creat un meniu prinicipal
-format din optiunile NEW GAME, RESUME si QUIT. Daca accesam optiunea NEW GAME
-se va afisa tabla de joc formata din 16 celule, 4 randuri si 4 coloane. Pe 
-tabla de joc vor fi initial generate doua celule cu valorile 2 sau 4. In 
-dreapta isi face prezenta panoul de control unde sunt prezentate urmatoarele:
-data si ora curente, scorul curent si comenzile. Mutarile pe tabla de joc se 
-realizeaza cu ajutorul tastelor cu sageti, iar dupa castigul sau pierderea unui
-joc prin apasarea tastei "R" jocul se restarteaza si poate fi luat de la capat.
-Prin apasarea tastei "Q" se iese din optiunea NEW GAME in meniul principal. 
-Pentru realizarea jocului am implementat mai multe functii: functii pentru 
-verificarea disponibilitatii unei mutari, functii pentru mutarea celulelor, 
-functie verificare daca a fost castigat jocul, functie verificare daca a fost
-pierdut jocul, functie desenare joc, functie desenare tabla, functie
-initializare culori, functie initializare joc, functie pentru meniu, functie
-adaugare celula aleatorie. 
+# 2048
+
+Implementation time: 50 hours.
+
+This project implements the 2048 game with a main menu containing `NEW GAME`, `RESUME` and `QUIT`.
+
+Selecting `NEW GAME` displays a 4-by-4 board with 16 cells. Two initial tiles are generated with values of 2 or 4. A control panel on the right displays the current date and time, score and available controls.
+
+## Controls
+
+- **Arrow keys:** move the tiles.
+- **R:** restart after winning or losing.
+- **Q:** return from the game screen to the main menu.
+
+## Implementation
+
+The implementation includes functions for checking available moves, moving tiles, detecting wins and losses, drawing the game and board, initializing colors and game state, managing the menu and adding a random tile.
